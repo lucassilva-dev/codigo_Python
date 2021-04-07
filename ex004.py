@@ -1,0 +1,16 @@
+n = input('Digite o que você quiser ')
+print('O tipo primitivo desse valor é: ', type(n))
+print('O que foi digitado é alfanumérico? ', n.isalnum())
+print('O que foi digitado é alfabético? ', n.isalpha())
+print('O que foi digitado é vazia ou todos caracteres ASCII ? ', n.isascii())
+print('O que foi digitado é decimal? ', n.isdecimal())
+print('O que foi digitado é um digito?', n.isdigit())
+print('O que foi digitado é um identificador válido no python? ', n.isidentifier())
+print('O que foi digitado é todo minúsculo? ', n.islower())
+print('O que foi digitado é imprimivel ou vazio? ', n.isprintable())
+print('O que foi digitado é uma sequência com título capitalizada? ', n.istitle())
+print('O que foi digitado é um espaço? ', n.isspace())
+print('O que foi digitado é todo maiúsculo? ', n.isupper())
+print('O que foi digitado é numérico?', n.isnumeric())
+
+
